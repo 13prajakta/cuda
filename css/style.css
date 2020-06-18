@@ -1,0 +1,141 @@
+body{position: relative;}
+body .navbar{margin-left: 120px;margin-right: 120px;}
+/*fonts*/
+.container{font-family: ttregu;}
+h1{font-family: ttbold;}
+button{font-family: ttsemibold;}
+
+.jumbotron {background-color: transparent;}
+.jumbotron h1{font-size: 42px;margin-top: 125px;}
+.jumbobut{margin-top: 53px;margin-bottom: 52px;}
+.navbar-default{background-color: transparent;border: none;}
+.navbar-default .navbar-nav>li>a{color: #fff;font-size: 16px;}
+.header .nav li a:hover{background-color: #643a79;color: #fff;}
+.navbar-brand{padding-top: 0px; }
+
+/*section 2*/
+.servi h1{font-size: 40px;margin-top: 120px;margin-bottom: 52px;}
+.servi h4{margin-bottom: 82px;}
+.services .thumbnail{padding: 0px;background-color: transparent;border: none;}
+.services .thumbnail img:hover{transform: scale(1.1);box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.22);background-color: rgba(247, 249, 249,0.6);}
+.services .caption h3{color: #fff;}
+.services .caption h3{margin-top: 60px;margin-bottom: 30px;}
+.services .caption p{margin-bottom: 128px;color: #fff;font-size: 16px;font-family: ttlight;}
+
+/*section3*/
+.team .thumbnail{padding: 0px;background-color: transparent;border: none;}
+.team h1{font-size: 41px;margin-top: 120px;margin-bottom: 55px;}
+.team h4{margin-bottom: 80px;}
+.team .thumbnail img{margin-bottom: 20px;}
+.team .thumbnail h3{margin-bottom: 15px;}
+.team .thumbnail h5{font-size: 16px;margin-bottom: 30px;color: #55c2e9;}
+.team .thumbnail p img{margin-right: 20px;margin-top: 35px;}
+.team1 li a{padding: 10px; margin-top: 15px;}
+
+/*section4*/
+.skill h1{font-size: 40px;margin-top: 120px;margin-bottom: 50px;}
+.skill h4{font-size: 18px;margin-bottom: 86px;}
+.progress{width: 150px;height: 150px;line-height: 150px;background: none;margin: 0 auto;box-shadow: none;position: relative;}
+.progress:after{content: "";width: 100%;height: 100%;border-radius: 50%;border: 12px solid #fff;position: absolute;top: 0;left: 0;}
+.progress > span{width: 50%;height: 100%;overflow: hidden;position: absolute;top: 0;z-index: 1;}
+.progress .progress-left{left: 0;}
+.progress .progress-bar{width: 100%;height: 100%;background: none;border-width: 12px;border-style: solid;position: absolute;top: 0;}
+.progress .progress-left .progress-bar{left: 100%;border-top-right-radius: 80px;border-bottom-right-radius: 80px;border-left: 0;-webkit-transform-origin: center left;transform-origin: center left;}
+.progress .progress-right{right: 0;}
+.progress .progress-right .progress-bar{left: -100%;border-top-left-radius: 80px;border-bottom-left-radius: 80px;border-right: 0;-webkit-transform-origin: center right;transform-origin: center right;animation: loading-1 1.8s linear forwards;}
+.progress .progress-value{width: 90%;height: 90%;border-radius: 50%;background: #fff;font-size: 24px;color: #44484B;line-height: 135px;text-align: center;position: absolute;top: 5%;left: 5%;}
+.progress.blue .progress-bar{border-color: #049dff;}
+.progress.blue .progress-left .progress-bar{animation: loading-2 1.5s linear forwards 1.8s;}
+.progress.pink .progress-bar{border-color: #d74680;}
+.progress.pink .progress-left .progress-bar{animation: loading-3 1s linear forwards 1.8s;}
+.progress.green .progress-bar{ border-color: #15c7a8;}
+.progress.green .progress-left .progress-bar{animation: loading-4 0.4s linear forwards 1.8s;}
+.progress.orange .progress-bar{border-color: #eb7d4b;}
+.progress.orange .progress-left .progress-bar{animation: loading-5 1.2s linear forwards 1.8s;}
+@keyframes loading-1{0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
+/*section5*/
+.portfolio button{background-color: #ebc985;margin-right: 15px;margin-bottom: 62px;border: none;}
+.portfolio h1{font-size: 40px;margin-top: 120px;margin-bottom: 54px;}
+.portfolio h4{margin-bottom: 42px;}
+.portfolio h5{font-size: 18px;margin-top: 35px;margin-bottom: 70px;}
+.port{margin-top: 18px;margin-bottom: 113px;}
+.ourport button:hover{background-color: #fff;}
+.thum {position: relative;width: 50%;left: 25%;}
+.image {display: block;width: 100%;height: auto;}
+.overlay {position: absolute;bottom: 100%;left: 0;right: 0;background-color: rgba(127, 140, 141,0.5);overflow: hidden;width: 100%;height:0;transition: .5s ease;}
+.thum:hover .overlay {bottom: 0;height: 100%;}
+.text {color: white;font-size: 20px;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);text-align: center;}
+
+/*section 6*/
+
+.testi h1{font-size: 40px;color: #fff;margin-top: 112px;margin-bottom: 53px;}
+.testi h5{font-size: 18px;color: #fff;margin-bottom: 55px;}
+.media-object{margin-right: 45px;margin-top: -112px;}
+.med{margin-bottom: 145px;}
+.media-body p{font-size: 21px;font-style: italic;color: #fff;font-family: ttitalic;}
+.media-body h4{color: #fff;font-size: 24px;margin-top: 30px;}
+.media-body h5{font-size: 18px;color: #ffdd99;}
+.med1{margin-bottom: 125px;}
+
+/*section7*/
+.info h1{margin-top: 120px;margin-bottom: 45px;color: #fff;}
+.info h5{color: #fff;margin-bottom: 75px;}
+.form-control{background-color: #273a71;border: none;color: #fff;padding: 22px 24px;}
+textarea{margin-bottom: 60px;}
+.in{margin-bottom: 17px;}
+
+/*section8*/
+.footer a{color: #fff;font-size: 24px;margin-right: 55px;font-family: ttsemibold;}
+.footer a:hover{color: #30bae7;text-decoration: none;}
+.footer{padding-top: 50px;padding-bottom: 42px;background-color: #344b8e;}
